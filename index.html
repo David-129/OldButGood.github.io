@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Danh sách các trang web trên home server</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1e1e2f;
+      color: #eee;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #61dafb;
+      font-weight: 700;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 15px 0;
+      background: #2e2e42;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgb(0 0 0 / 0.3);
+      transition: background 0.3s ease;
+    }
+    li:hover {
+      background: #3a3a59;
+    }
+    a {
+      color: #61dafb;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .url {
+      display: block;
+      font-size: 14px;
+      color: #bbb;
+      margin-top: 4px;
+      word-break: break-all;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Danh sách các trang web trên home server</h1>
+  <ul>
+    <li>
+      <a href="http://192.168.1.5:8080" target="_blank" rel="noopener noreferrer">FileBrowser (Self Cloud)</a>
+      <span class="url">http://192.168.1.5:8080</span>
+    </li>
+    <li>
+      <a href="http://192.168.1.5:8096" target="_blank" rel="noopener noreferrer">Jellyfin (Media Center)</a>
+      <span class="url">http://192.168.1.5:8096</span>
+    </li>
+    <li>
+      <a href="https://192.168.1.5:8443" target="_blank" rel="noopener noreferrer">Crafty (Minecraft Server Control Panel)</a>
+      <span class="url">https://192.168.1.5:8443</span>
+    </li>
+    <li>
+      <a href="http://192.168.1.5:9090" target="_blank" rel="noopener noreferrer">Cockpit (Server Manager)</a>
+      <span class="url">http://192.168.1.5:9090</span>
+    </li>
+  </ul>
+
+  <footer>
+    &copy; 2025 Home Server Links
+  </footer>
+</body>
+</html>
